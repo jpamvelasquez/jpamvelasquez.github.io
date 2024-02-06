@@ -58,9 +58,12 @@ h4 {
 }
 
 .container {
-  background-image: url(./dino-reichmuth-kk3W5-0b6e0-unsplash.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./mountain-lake-reflection-nature-scenery-4k-wallpaper-uhdpaper.com-385@0@h.jpg);
   background-size: cover;
-  position: center;
+  background-position: center;
+  margin: auto;
+  width: 1800px;
 }
 .about li a {
   text-decoration: none;
