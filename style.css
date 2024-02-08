@@ -72,6 +72,12 @@ h4 {
   max-width: 1800px;
   position: relative;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    font-size: xx-small;
+  }
+}
 .about li a {
   text-decoration: none;
 }
