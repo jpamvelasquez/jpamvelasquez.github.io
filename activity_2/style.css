@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.container {
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.green {
+  background-color: green;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.yellow {
+  background-color: blue;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: yellow;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.blue {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
