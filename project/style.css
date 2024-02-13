@@ -244,6 +244,13 @@ html {
   transform: translateX(-50%);
   background-repeat: no-repeat;
 }
+.location {
+  margin-top: 1.3rem;
+}
+.amenities {
+  margin-top: 1.3rem;
+  color: rgb(215, 215, 83);
+}
 
 /* featured */
 .featured-box {
