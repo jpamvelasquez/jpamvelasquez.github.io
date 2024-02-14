@@ -50,7 +50,7 @@
               curating the perfect itinerary tailored to your desires.
             </p>
 
-            <a href="#" class="btn">View More &darr; </a>
+            <a href="#travelmore" class="btn">View More &darr; </a>
           </div>
           <div class="hero-img-box">
             <img src="./images/hero.svg" class="hero-image" />
@@ -73,11 +73,35 @@
       </div>
     </section> -->
 
-    <!-- DESTINATION -->
+    <!-- DESTINATIONS -->
     <hr class="hr" />
     <section id="travelmore">
       <div class="text-destination">
         <h3 class="common-header">Destinations</h3>
+      </div>
+      <div class="search-bar">
+        <form>
+          <div class="location-form">
+            <label>Location</label>
+            <input type="text" placeholder="Where are you going?" />
+          </div>
+          <div>
+            <label>Check in</label>
+            <input type="text" placeholder="Add Date" />
+          </div>
+          <div>
+            <label>Check out</label>
+            <input type="text" placeholder="Add Date" />
+          </div>
+          <div>
+            <label>Guest</label>
+            <input type="text" placeholder="Add Guest" />
+          </div>
+          <button type="submit"><i class="bi bi-search"></i></button>
+        </form>
+      </div>
+      <div class="most-visited">
+        <h2 class="visited-text">Most Visited</h2>
       </div>
       <div class="destination">
         <div class="container">
@@ -233,7 +257,7 @@
         </div>
         <div class="col">
           <h3>Newsletter</h3>
-          <form>
+          <form class="form-footer">
             <i class="bi bi-envelope-at-fill"></i>
             <input type="email" placeholder="Enter your email" />
             <button type="submit"><i class="bi bi-arrow-right"></i></button>

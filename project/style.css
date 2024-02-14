@@ -14,6 +14,7 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: #e8eeef;
   position: relative;
+  /* background-image: linear-gradient(to bottom right, #38a2d7, #561139); */
 }
 html {
   font-size: 62.5%;
@@ -87,7 +88,7 @@ html {
   padding: 1.6rem;
   font-size: 1.6rem;
   text-decoration: none;
-  color: #555;
+  color: black;
   font-weight: 600;
 }
 
@@ -252,6 +253,77 @@ html {
   color: rgb(215, 215, 83);
 }
 
+.search-bar {
+  background-image: linear-gradient(to bottom right, #c5dde8, #cce8ef);
+  width: 70%;
+  margin: 8rem auto;
+  /* border: 1px solid rgb(78, 23, 150); */
+  padding: 1.6rem 2rem 1.6rem 3rem;
+  /* border-radius: 5rem; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.search-bar form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-bar form input {
+  display: block;
+  /* border: 1px solid rgb(177, 53, 53); */
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #131313;
+}
+
+.search-bar form button {
+  background-color: #39d2ca;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+}
+
+.search-bar form button .bi {
+  width: 1.5rem;
+  margin-left: 0.7rem;
+}
+
+.location-form {
+  flex: 1;
+}
+
+.search-bar form label {
+  font-weight: 600;
+  /* border: 1px solid black; */
+}
+
+.most-visited {
+  /* border: 1px solid black; */
+  width: 70%;
+  margin: 0 auto;
+}
+
+.visited-text {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.visited-text:after {
+  content: "";
+  position: absolute;
+  background-color: #39d2ca;
+  width: 7.5rem;
+  height: 0.7rem;
+  bottom: -1.7rem;
+  left: 0;
+  border-radius: 1rem;
+}
 /* featured */
 .featured-box {
   /* background-color: #e8dede; */
@@ -296,7 +368,7 @@ html {
 .featured-logos img {
   height: 22rem;
   margin-bottom: 4rem;
-  filter: brightness(80%);
+  filter: brightness(60%);
   /* opacity: 100%; */
 }
 
@@ -355,7 +427,7 @@ col:nth-child(3) {
   color: black;
 }
 
-form {
+.form-footer {
   padding-bottom: 1.5rem;
   display: flex;
   align-items: center;
@@ -409,6 +481,7 @@ hr {
   text-align: center;
 }
 
+/* footer */
 @media (max-width: 700px) {
   footer {
     bottom: unset;
